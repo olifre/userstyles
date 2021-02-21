@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           KIX/OTRS: Reduce row distance of tables
+@namespace      github.com/olifre/userstyles
+@updateURL      https://raw.githubusercontent.com/olifre/userstyles/main/ticket.uni-bonn.de.user.css
+@version        1.0.0
+@description    Reduces the distance between rows, fitting more tickets and information on one screen.
+@author         Oliver Freyermuth <o.freyermuth@googlemail.com> (https://olifre.github.io/)
+@license        Unlicense
+==/UserStyle== */
+
+@-moz-document domain("ticket.uni-bonn.de") {
+    .DataTable tr td {
+        line-height: 16px !important;
+        height: 16px !important;
+    }
+    img {
+        padding: 0px !important;
+    }
+}
