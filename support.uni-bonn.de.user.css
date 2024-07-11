@@ -12,12 +12,18 @@
     .DataTable thead th, .DataTable thead th.DashboardHeader {
         padding: 5px var(--padding-lg);
     }
+    .ArticleMailHeader label {
+        line-height: normal !important;
+    }
+    .WidgetSimple .field-wrapper > .Field, .field-wrapper > .Field {
+        line-height: normal !important;
+    }
     html {
         --main-page-padding: 5px !important;
         --gap-sm: 1px !important;
         --gap-md: 2px !important;
         --gap-lg: 5px !important;
-        --padding-md: 1px !important;
+        --padding-sm: 5px !important;
         --padding-md: 2px !important;
         --padding-lg: 5px !important;
     }
