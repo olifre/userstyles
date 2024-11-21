@@ -2,7 +2,7 @@
 @name           Znuny: Reduce row distances and paddings of tables and layout
 @namespace      github.com/olifre/userstyles
 @updateURL      https://raw.githubusercontent.com/olifre/userstyles/main/support.uni-bonn.de.user.css
-@version        1.0.5
+@version        1.0.6
 @description    Reduces the distances and paddings of layout elements and rows, fitting more tickets and information on one screen, improves accessibility.
 @author         Oliver Freyermuth <o.freyermuth@googlemail.com> (https://olifre.github.io/)
 @license        Unlicense
@@ -43,5 +43,8 @@
        --border-color: #b8b6b1 !important;
        --border-input-color: #8c8985 !important;
        --disabled-text:var(--gray-dark-medium) !important;
+   }
+   tbody tr:hover span.UnreadArticles i {
+       color:#686766;
    }
 }
