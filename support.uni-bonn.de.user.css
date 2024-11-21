@@ -2,7 +2,7 @@
 @name           Znuny: Reduce row distances and paddings of tables and layout
 @namespace      github.com/olifre/userstyles
 @updateURL      https://raw.githubusercontent.com/olifre/userstyles/main/support.uni-bonn.de.user.css
-@version        1.0.6
+@version        1.0.7
 @description    Reduces the distances and paddings of layout elements and rows, fitting more tickets and information on one screen, improves accessibility.
 @author         Oliver Freyermuth <o.freyermuth@googlemail.com> (https://olifre.github.io/)
 @license        Unlicense
@@ -23,12 +23,17 @@
     }
     html {
         --main-page-padding: 5px !important;
-        --gap-sm: 1px !important;
+        --gap-sm: 2px !important;
         --gap-md: 2px !important;
-        --gap-lg: 5px !important;
-        --padding-sm: 5px !important;
-        --padding-md: 2px !important;
-        --padding-lg: 5px !important;
+        --gap-lg: 3px !important;
+        --padding-xs: 1px !important;
+        --padding-sm: 1px !important;
+        --padding-md: 0px !important;
+        --padding-lg: 4px !important;
+    }
+    .toolbar-row-wrapper .toolbar-row .component-wrapper ul {
+        gap: 10px;
+        padding-top: 10px;
     }
     /* Ensure row highlighting on hover also works for even rows */
    .DataTable tbody tr:hover td,
